@@ -8,3 +8,4 @@
 Short project description...
 
 ```
+[![CI](https://github.com/Pranjal-Amulani/Status-badge/actions/workflows/ci.yml/badge.svg)](https://github.com/Pranjal-Amulani/Status-badge/actions/workflows/ci.yml)

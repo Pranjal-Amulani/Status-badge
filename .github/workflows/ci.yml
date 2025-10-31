@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  quick-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run quick check
+        run: |
+          echo "Running simple CI check"
+          # Replace these with your project tests (e.g. npm test, go test, pytest)
+          echo "CI OK"
